@@ -1,0 +1,33 @@
+PASOS
+1. Copiar el carpeta proyecto en la direccion /var/www/html usando el comando
+    
+   cp -r /home/laboetn/Desktop/proyecto/ /var/www/html
+
+2. Darle permisos a la carpeta proyecto y sus archivos internos
+
+sudo chmod -R 757 proyecto
+
+//Necesitamos permisos de lectura para llenar nuestra tabla de base de datos desde 
+// el archivo reporte2.txt
+// Necesitamos permisos de ejecucion para ejecutar el shell
+
+3. Ejecutar el shell llenartable.sh password (el password tiene que ser del mysql)
+
+4. Si hubo errores volver al paso 2 y comprobar su base de datos en la terminal,
+   si no hubo errores ir al paso 5
+
+5. Abrir el localhost en el navegador GOOGLE CHROME y acceder el archivo /proyecto/pru.html 
+
+6. Prueba del Ping Instantaneo haciendo click en cualquiera de las imagenes
+
+7. Prueba del Histograma ingresando los siguientes datos:
+
+	- Ingresar una fecha(MES-DIA-AÑO) desde el 11-04-2018 hasta 11-08-2018
+	- Seleccionar el enlace de interes
+        - Ingresar un intervalo de hora inicial y hora final en el formato (HORA:MIN:SEG)
+
+         Por ejemplo:     Fecha: 11-07-2018
+			  Pagina: Youtube
+                          Hora inicial: 00:00:00     Hora final: 23:59:59
+
+   
